@@ -1,0 +1,395 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ViTA Tech -- Smart designs, smart solutions</title>
+
+  <!-- Google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="logo-mark" aria-hidden="true"></div>
+        <div class="brand-text">
+          <span class="brand-title">ViTA</span>
+          <span class="brand-sub">Tech</span>
+        </div>
+      </div>
+
+      <nav class="nav" id="mainNav">
+        <a href="#home">Home</a>
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="header-cta">
+        <a class="btn btn-outline" href="#contact">Get started</a>
+        <button id="navToggle" class="nav-toggle" aria-label="Toggle menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-left">
+          <h1>Empower your business with us</h1>
+          <p class="lead">Smart designs, smart solutions -- we bring your ideas to life through beautiful apps and websites.</p>
+          <a class="btn btn-primary" href="#projects">Get started</a>
+        </div>
+
+        <div class="hero-right">
+          <div class="logo-large" aria-hidden="true"></div>
+          <!-- optional real image can replace the placeholder -->
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section id="features" class="section features">
+      <div class="container">
+        <h2 class="section-title">Features</h2>
+
+        <div class="grid features-grid">
+          <article class="card feature-card">
+            <div class="icon">✍️</div>
+            <h3>Design</h3>
+            <p>Beautiful and effective visual & UX design.</p>
+            <a class="link" href="#">Learn More →</a>
+          </article>
+
+          <article class="card feature-card">
+            <div class="icon">⚙️</div>
+            <h3>Automation</h3>
+            <p>Streamline workflows and save time with smart automations.</p>
+            <a class="link" href="#">Learn More →</a>
+          </article>
+
+          <article class="card feature-card">
+            <div class="icon">💻</div>
+            <h3>Web Apps</h3>
+            <p>Build powerful, maintainable web applications.</p>
+            <a class="link" href="#">Learn More →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section id="pricing" class="section pricing">
+      <div class="container">
+        <h2 class="section-title">Pricing</h2>
+
+        <div class="grid pricing-grid">
+          <div class="card price-card">
+            <div class="price-badge">Basic</div>
+            <div class="price-amount">$20<span>/month</span></div>
+            <ul class="price-features">
+              <li>Feature 1</li>
+              <li>Feature 2</li>
+              <li>Feature 3</li>
+            </ul>
+            <a class="btn btn-primary" href="#contact">Start now</a>
+          </div>
+
+          <div class="card price-card featured">
+            <div class="price-badge">Pro</div>
+            <div class="price-amount">$40<span>/month</span></div>
+            <ul class="price-features">
+              <li>Feature 1</li>
+              <li>Feature 2</li>
+              <li>Feature 3</li>
+            </ul>
+            <a class="btn btn-primary" href="#contact">Start now</a>
+          </div>
+
+          <div class="card price-card">
+            <div class="price-badge">Premium</div>
+            <div class="price-amount">$60<span>/month</span></div>
+            <ul class="price-features">
+              <li>Feature 1</li>
+              <li>Feature 2</li>
+              <li>Feature 3</li>
+            </ul>
+            <a class="btn btn-primary" href="#contact">Start now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT (simple footer anchor) -->
+    <section id="contact" class="section contact">
+      <div class="container contact-inner">
+        <div>
+          <h3>Contact</h3>
+          <p>Email: <a href="mailto:prinsterlizzy@gmail.com">prinsterlizzy@gmail.com</a></p>
+        </div>
+        <div class="socials">
+          <a class="social" href="#" aria-label="LinkedIn">in</a>
+          <a class="social" href="#" aria-label="Twitter">tw</a>
+          <a class="social" href="#" aria-label="GitHub">gh</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <small>© 2025 ViTA Tech -- Built with ♥</small>
+      <nav class="footer-nav">
+        <a href="#">Terms</a>
+        <a href="#">Privacy</a>
+        <a href="#">Help</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+    // small script to toggle mobile nav
+    const navToggle = document.getElementById('navToggle');
+    const mainNav = document.getElementById('mainNav');
+    navToggle.addEventListener('click', () => {
+      mainNav.classList.toggle('open');
+    });
+  </script>
+</body>
+</html><style>:root{
+  --font-system: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  --bg: #ffffff;
+  --muted: #6b7280;
+  --text: #0f172a;
+  --accent-1: linear-gradient(135deg,#6a11cb 0%, #ff00b8 100%); /* purple -> pink */
+  --primary: #2f74ff;
+  --radius: 12px;
+  --card-shadow: 0 8px 30px rgba(15,23,42,0.06);
+}
+
+* { box-sizing: border-box; }
+html,body { height:100%; }
+body{
+  font-family: var(--font-system);
+  margin:0;
+  color:var(--text);
+  background: #f7f8fb;
+  -webkit-font-smoothing:antialiased;
+}
+
+/* layout container */
+.container{
+  width: min(1100px, 92%);
+  margin: 0 auto;
+}
+
+/* Header */
+.site-header{
+  background: #fff;
+  border-bottom: 1px solid #eef1f6;
+  position: sticky;
+  top:0;
+  z-index: 50;
+}
+.header-inner{
+  display:flex;
+  gap:16px;
+  align-items:center;
+  justify-content:space-between;
+  padding:18px 0;
+}
+
+/* brand */
+.brand{
+  display:flex;
+  align-items:center;
+  gap:12px;
+}
+.logo-mark{
+  width:44px;
+  height:44px;
+  border-radius:12px;
+  background: var(--accent-1);
+  box-shadow: 0 6px 18px rgba(106,17,203,0.14);
+}
+.brand-text{ display:flex; flex-direction:column; line-height:1; }
+.brand-title{ font-weight:700; font-size:18px; letter-spacing:0.6px; }
+.brand-sub{ font-weight:500; font-size:13px; color:var(--muted); margin-top:2px; }
+
+/* nav */
+.nav{
+  display:flex;
+  gap:22px;
+  align-items:center;
+}
+.nav a{
+  color:var(--text);
+  text-decoration:none;
+  font-weight:600;
+  font-size:14px;
+  padding:6px 8px;
+}
+.nav a:hover{ color:var(--primary); }
+
+/* header CTA + mobile toggle */
+.header-cta{ display:flex; gap:10px; align-items:center; }
+.btn{ display:inline-block; padding:12px 22px; border-radius:10px; text-decoration:none; font-weight:700; }
+.btn-primary{ background:var(--primary); color:#fff; box-shadow: 0 8px 20px rgba(47,116,255,0.12); }
+.btn-outline{ background:#fff; border:1px solid #e6e9ef; color:var(--text); }
+.nav-toggle{
+  display:none;
+  background:transparent;
+  border:none;
+  font-size:20px;
+  cursor:pointer;
+}
+
+/* HERO */
+.hero{
+  padding:64px 0;
+  background: linear-gradient(180deg, rgba(111,91,255,0.03), rgba(255,0,184,0.01));
+}
+.hero-inner{
+  display:flex;
+  gap:32px;
+  align-items:center;
+  padding:36px 0;
+}
+.hero-left{ flex:1; }
+.hero-left h1{
+  font-size:36px;
+  margin:0 0 12px 0;
+  font-weight:800;
+  letter-spacing:-0.6px;
+}
+.lead{
+  color:var(--muted);
+  font-size:16px;
+  margin-bottom:18px;
+  max-width:58ch;
+}
+
+/* hero right (logo big placeholder) */
+.hero-right{
+  width:320px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.logo-large{
+  width:240px;
+  height:160px;
+  background:var(--accent-1);
+  border-radius:18px;
+  box-shadow:var(--card-shadow);
+}
+
+/* sections */
+.section{ padding:48px 0; }
+.section-title{
+  text-align:center;
+  font-size:22px;
+  margin-bottom:26px;
+  font-weight:700;
+}
+
+/* grid utility */
+.grid{
+  display:grid;
+  gap:24px;
+}
+
+/* Features */
+.features-grid{
+  grid-template-columns: repeat(3, 1fr);
+  align-items:start;
+}
+
+.feature-card{
+  background:#fff;
+  border-radius:12px;
+  padding:22px;
+  text-align:center;
+  box-shadow: var(--card-shadow);
+}
+.feature-card .icon{
+  font-size:28px;
+  margin-bottom:12px;
+}
+.feature-card h3{ margin:8px 0; font-size:18px; }
+.feature-card p{ color:var(--muted); margin-bottom:12px; }
+
+/* Pricing */
+.pricing-grid{
+  grid-template-columns: repeat(3, 1fr);
+  align-items:start;
+}
+.price-card{
+  background:#fff;
+  padding:20px;
+  border-radius:12px;
+  text-align:center;
+  box-shadow: var(--card-shadow);
+}
+.price-badge{ font-weight:700; color:var(--muted); margin-bottom:8px; }
+.price-amount{ font-size:28px; font-weight:800; margin:8px 0; }
+.price-amount span{ font-size:14px; font-weight:600; color:var(--muted); margin-left:6px; }
+.price-features{ list-style:none; padding:0; margin:12px 0 16px 0; color:var(--muted); }
+
+/* featured card style */
+.price-card.featured{
+  transform: translateY(-6px);
+  border: 1px solid rgba(47,116,255,0.08);
+}
+
+/* contact section */
+.contact-inner{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:20px;
+}
+.socials{ display:flex; gap:8px; }
+.social{
+  display:inline-flex;
+  width:36px; height:36px; border-radius:8px;
+  align-items:center; justify-content:center;
+  background:#111827; color:#fff; text-decoration:none; font-weight:700;
+}
+
+/* footer */
+.site-footer{
+  background:#fff;
+  border-top:1px solid #eef1f6;
+  padding:18px 0;
+}
+.footer-inner{ display:flex; justify-content:space-between; align-items:center; gap:12px; color:var(--muted); font-size:14px; }
+
+/* Responsive behavior */
+@media (max-width: 980px){
+  .hero-inner{ flex-direction:column; align-items:flex-start; gap:20px; }
+  .hero-right{ width:100%; display:block; }
+  .nav{ gap:14px; }
+  .features-grid{ grid-template-columns: repeat(2, 1fr); }
+  .pricing-grid{ grid-template-columns: repeat(2, 1fr); }
+  .contact-inner{ flex-direction:column; align-items:flex-start; }
+}
+
+@media (max-width: 640px){
+  .container{ width:94%; }
+  .nav{ display:none; }
+  .header-cta .btn-outline{ display:none; }
+  .nav-toggle{ display:block; }
+  .nav.open{ display:flex; position:absolute; top:64px; left:0; right:0; background:#fff; padding:12px 18px; flex-direction:column; gap:10px; border-bottom:1px solid #eef1f6; }
+  .hero-left h1{ font-size:28px; }
+  .hero-left .lead{ font-size:15px; }
+  .features-grid{ grid-template-columns: 1fr; }
+  .pricing-grid{ grid-template-columns: 1fr; }
+  .hero-right .logo-large{ width:100%; height:140px; border-radius:10px; }
+  .header-inner{ padding:12px 0; }
+  .brand-text{ display:none; } /* optional: show just logo on small screens */
+}</style>
