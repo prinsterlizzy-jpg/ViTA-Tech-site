@@ -19,7 +19,7 @@ Built with **HTML, CSS, and JavaScript**, it highlights services, projects, and 
 Coming soon...
 
 ## 📫 Contact
-For inquiries or collaborations, reach out at: **vitatech@example.com**
+For inquiries or collaborations, reach out at: **prinsterlizzy@gmail.com**
 
 
 ## 📝 License
