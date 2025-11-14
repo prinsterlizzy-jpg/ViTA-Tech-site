@@ -16,7 +16,7 @@ Built with **HTML, CSS, and JavaScript**, it highlights services, projects, and 
 - JavaScript  
 
 ## 🚀 Live Demo
-Coming soon...
+https://github.com/prinsterlizzy-jpg/ViTA-Tech-site
 
 ## 📫 Contact
 For inquiries or collaborations, reach out at: **prinsterlizzy@gmail.com**
